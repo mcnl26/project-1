@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/myStyle.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script|Audiowide|Satisfy|Square Peg|Quattrocento">
+    <link rel="icon" type="image" href="./image/favicon.jpg">
+    <script src="https://kit.fontawesome.com/3fd7489e8f.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js" async></script>
+    <title>Xplor</title>
+</head>
+<body>
+
+<!-- Front Page -->
+
+    <div class="frontPage">
+        <div class="contentWrap">
+            <h1 class="frontHeader">Feel the vibe</h1>
+            <h2>Camarines Norte</h2>    
+            <a href="#homePage" >
+                <button type="button" class="button button-down" id="button">
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+            </a>    
+        </div>
+    </div>
+
+<!-- Home Page -->
+    
+    <div class="homePage" id="homePage">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-customgreen fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-brand-custom" href="./index.html"> <img src="./image/brandLogo-removebg-preview.png" alt="" class="brandLogo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#homePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./html/province.html" target="">The Province</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/about.html" target="">About</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contact.html" target="" >Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          What to do
+                        </a>
+                        <ul class="dropdown-menu bg-light opacity-75" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./html/food.html">Food</a></li>
+                          <li><a class="dropdown-item" href="./html/beach.html">Beach</a></li>
+                          <li><a class="dropdown-item" href="./html/recreation.html">Recreation</a></li>
+                        </ul>
+                      </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hompage-content">
+            <div class="header1">Discover Camarines Norte</div>
+            <div class="header2 fw-light">From great beaches to good foods</div>
+            <div class="d-flex flex-sm-row flex-column mt-4 justify-content-center">
+                <div class="me-3">
+                    <a class="text-decoration-none" href="./html/food.html">
+                        <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                            <div class="card-header text-center">Food</div>
+                            <div class="card-body">
+                            <img src="./image/food.jpg" alt="food" class="card-img opacity-50">
+                            </div>
+                        </div>    
+                    </a>
+                </div>
+                <div class="me-3">
+                    <a class="text-decoration-none" href="./html/beach.html">
+                        <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                            <div class="card-header text-center">Beach</div>
+                            <div class="card-body">
+                            <img src="./image/beach.jpg" alt="food" class="card-img opacity-50">
+                            </div>
+                        </div>    
+                    </a>
+                </div>
+                <div class="me-3">
+                    <a class="text-decoration-none" href="./html/recreation.html">
+                        <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                            <div class="card-header text-center">Recreation</div>
+                            <div class="card-body">
+                            <img src="./image/recreation.jpg" alt="food" class="card-img opacity-50">
+                            </div>
+                        </div>    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

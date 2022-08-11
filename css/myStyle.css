@@ -1,0 +1,732 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+/* Front Page */
+
+    .frontPage {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../image/frontPageImage.jpg);
+        background-size: 100vw 100vh;
+    }
+
+
+        .contentWrap {
+        text-align: center;
+        position: absolute;
+        top: -1px;
+        padding-top: 220px;
+        height: 101vh;
+        width: 100vw;
+        background: rgba(30, 46, 30, 0.896);
+        color: rgb(217, 232, 187);
+        font-family: 'Lobster', cursive;
+        font-size: 25px;
+        }
+
+            .contentWrap h2 {
+            font-family: "Satisfy",serif;
+            font-size: 100px;
+            color: rgb(254, 255, 251);
+            }
+
+            .contentWrap .button {
+            margin-top: 10px;
+            background: none;
+            border: 1px solid  rgba(158, 171, 132, 0.166);
+            color: rgb(217, 232, 187);
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            font-size: 50px;
+            }
+
+
+/* Home Page */
+    
+    .homePage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/backgroundImage1.jpg);
+    background-size: 100vw 100vh;
+    }
+
+        .bg-customgreen{
+        background:  rgb(27, 36, 27);
+        border-bottom: 1px solid rgb(194, 199, 185);
+        }
+
+        .brandLogo {
+        width: 125px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        }
+
+        .hompage-content {
+        background: rgba(30, 46, 30, 0.744);
+        height: 100vh;
+        }
+        
+
+        .header1 {
+        text-align: center;
+        padding-top: 100px;
+        font-family: "Quattrocento",serif;
+        font-size: 60px;
+        color: rgb(254, 255, 251);
+        }
+
+        .header2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Square Peg",sans-serif;
+        color: rgb(254, 255, 251);
+        }
+
+        .table {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        }
+
+        .card {
+        height: 310px;
+        font-family: "Quattrocento",serif;
+        }
+
+        .card:hover {
+        box-shadow: 1px 1px 20px rgb(176, 200, 176);
+        }
+
+        .card-header {
+        color: rgb(254, 255, 251);
+        font-weight: 1000;
+        font-size: 20px;
+        }
+
+        .card-body img {
+        width: 250px;
+        height: 230px;
+        border: 1px solid rgba(16, 63, 5, 0.725);
+        padding: 0px;
+        }
+
+/* The Province Page */
+    
+    .provincePage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/province.jpg);
+    background-size: 100vw 100vh;
+    }
+
+        .provincePage-content {
+        display: flex;
+        background: rgba(30, 46, 30, 0.744);
+        width: 100vw;
+        height: 100vh;
+        }
+
+            .left-div {
+            margin-left: 220px;
+            margin-top: 50px;
+            }
+
+            .left-div p {
+            margin-top: 10px;
+            color:  rgb(217, 232, 187);
+            text-align: center;
+
+            }
+
+            .bantayog {
+            width: 475px;
+            margin-top: 125px;
+            margin-right: 25px;
+            border-radius: 5%;
+            }
+
+            .right-div {
+            margin-top: 150px;
+            margin-right: 200px;
+            color: rgb(236, 242, 224);
+            font-size: 18px;
+            font-family: 'Lobster', cursive;
+            }
+
+            .right-div .source {
+            margin-top: 25px;
+            }
+
+/* About */
+    .aboutPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/aboutPage.jpg);
+    background-size: 100vw 100vh;
+    }
+
+        .aboutPage-content  {
+        background: rgba(30, 46, 30, 0.744);
+        width: 100vw;
+        height: 100vh;
+        padding-top: 100px;
+        }
+
+        .aboutContent {
+        width: 550px;
+        }
+
+        .aboutPage img {
+        width: 75px;
+        }
+
+        .logo {
+        margin-right: 200px;
+        margin-left: 200px;
+        }
+
+/* Contact Us */
+        .contactPage {
+        background: rgb(23, 35, 23);
+        width: 100vw;
+        height: 100vh;
+        }
+
+            .contactPage i {
+            color: rgb(116, 125, 116);
+            font-size: 30px;
+            margin-bottom: 20px;
+            }
+
+            .contactPage .contact{
+            margin: auto;
+            margin-top: 125px;
+            width: 500px;
+            height: 200px;
+            }
+
+            .contactPage .h1 {
+            padding-top: 75px;
+            }
+
+            .portfolio {
+            margin-top: 100px;
+            }
+
+            .portfolio img {
+            width: 3%;
+            margin-top: 50px;
+            }
+
+/* Food Page */
+
+    .foodPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/foodpagebg.jpg);
+    background-size: 100vw 100vh;
+    }
+
+            .foodPage-content {
+            background: rgba(30, 46, 30, 0.744);
+            width: 100vw;
+            height: 100vh;        
+            padding-top: 80px;
+            }
+
+                .foodPage-content .carousel {
+                margin-top: 90px;
+                padding-left: 20px;
+                padding-right: 30px;
+                }
+
+                .foodPage-content .h1 {
+                font-family: "Satisfy",serif;
+                font-size: 60px;
+                }
+
+            .carousel {
+            margin: auto;
+            }
+
+                .carousel img {
+                margin: auto;
+                }
+
+/* Beach Page */
+
+.beachPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/beachpagebg.jpg);
+    background-size: 100vw 100vh;
+        }
+
+            .beachPage-content {
+            background: rgba(30, 46, 30, 0.744);
+            width: 100vw;
+            height: 100vh;        
+            padding-top: 35px;
+            }
+
+                .beachPage-content .h1 {
+                font-family: "Satisfy",serif;
+                font-size: 50px;    
+                margin-top: 25px;
+                }
+
+                .beachPage-content .carousel {
+                margin-top: 150px;
+                padding-right: 25px;
+                padding-left: 25px;    
+                }
+
+                .carousel img {
+                margin: auto;
+                }
+
+                .carousel h1 {
+                font-family: 'Lobster', cursive;
+                }
+
+                .review-div {
+                width: fit-content;
+                }
+
+                .reviewA {
+                width: 15%;
+                }
+
+                .reviewB {
+                width: 55%;
+                }
+
+                .fa-angle-right {
+                font-size: 50px;
+                vertical-align: middle;
+                color: green;
+                margin-left: 75px;
+                }
+
+/* Recreational Page */
+
+.recreationalPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/recreational.jpg);
+    background-size: 100vw 100vh;
+        }
+
+            .recreationalPage-content {
+            background: rgba(30, 46, 30, 0.744);
+            width: 100vw;
+            height: 100vh;        
+            padding-top: 40px;
+            }
+
+            .recreationalPage-content .h1 {
+            margin-top: 10px;
+            font-family: "Satisfy",serif;
+            font-size: 50px;    
+            }
+
+            .recreationalPage-content .carousel {
+            margin-top: 150px;
+            padding-right: 25px;
+            padding-left: 25px;
+            }
+
+                .carousel img {
+                margin: auto;
+                }
+
+@media (max-width: 376px) {
+
+/* Main Page */
+    .frontPage {
+    background-image: url(../image/frontPageImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .frontPage h2 {
+    font-size: 45px;
+    }
+
+    .homePage {
+    background-image: url(../image/backgroundImage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .hompage-content .header1 {
+    font-size: 35px;
+    }
+
+    .homePage .card-img {
+    display: none;
+    }
+
+    .homePage .card {
+    width: 200px;
+    height: 50%;
+    }
+    
+    .homePage .d-flex {
+    align-items: center;
+    margin-top: 75px;
+    }
+
+/* About Page */
+
+    .aboutPage  {
+    background-image: url(../image/aboutPage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .aboutPage .h1 {
+    margin-top: 40px;
+    }
+
+   .aboutPage-content {
+   padding-top: 25px;
+   line-height: 15px;
+   }
+
+   .about-wrapper {
+    margin-left: 20px;
+    font-size: 12px;
+    text-align: justify;
+   }
+
+   .aboutContent {
+    width: 325px;
+   }
+
+   .aboutPage video {
+    width: 320px;
+   }
+
+   .aboutPage .small {
+    margin-left: 0px;
+    margin-right: 40px;
+   }
+
+   .aboutPage img {
+    width: 30px;
+    margin-right: 2px;
+   }
+
+/* Beach */
+
+    .beachPage  {
+    background-image: url(../image/beachpagebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .beachPage .col-sm-6 {
+    padding-left: 5px;
+    padding-right: 20px;
+   }
+   .beachPage .h1{
+    font-size: 25px;    
+   }
+
+   .beachPage .left-content {
+    font-size: 11px;
+    text-align: justify;
+   }
+
+   .beachPage .review-div {
+    width: 350px;
+    height: 25px;
+    margin-left: 15px;
+    padding-right: 20px;
+   }
+   .beachPage i {
+    font-size: 12px;
+   }
+
+   .beachPage .btn {
+    margin-top: 10px;
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+   }
+
+   .beachPage .carousel-control-prev  {
+    margin-left: -15px;
+   }
+
+   .beachPage .carousel-control-next {
+    margin-right: -15px;
+   }
+
+   .beachPage .modal {
+    font-size: 10px;
+   }
+
+/* Contact Us */
+
+   .contactPage .h1 {
+    font-size: 25px;
+   }
+
+   .contactPage p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 20px;
+   }
+
+   .contactPage .contact {
+    font-size: 12px;
+    width: 300px;
+   }
+
+   .contactPage img {
+    width: 50px;
+    margin-top: 1px;
+   }
+
+   .portfolio {
+    margin-top: 0px;
+    font-size: 12px;
+   }
+
+   .portfolio img {
+    width: 50px;
+   }
+
+/* food */
+
+    .foodPage  {
+    background-image: url(../image/foodpagebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .foodPage .col-sm-6 {
+    padding-left: 5px;
+    padding-right: 20px;
+   }
+
+   .foodPage .h1 {
+    font-size: 25px;
+   }
+
+   .foodPage .left-content {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 15px;
+   }
+
+   .foodPage .foodBlog , .h-5 {
+    font-size: 10px;
+   }
+
+   .foodPage .card-body {
+    height: 85px;
+    margin-right: 10px;
+   }
+
+   .foodPage .card {
+    margin-right: 2px;
+   }
+
+   .foodPage .carousel {
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .foodPage .carousel-control-prev , .carousel-control-next {
+    margin-left: -20px;
+    margin-right: -10px;
+   }
+
+   .foodPage .card-img-top {
+    display: none;
+   }
+
+   .foodPage .btn {
+    font-size: 8px;
+   }
+
+   .foodPage .modal {
+    font-size: 10px;
+   }
+
+/* Province Page */
+
+    .provincePage  {
+    background-image: url(../image/province.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .provincePage p {
+    font-size: 10px;
+   }
+
+   .provincePage .left-div {
+    margin-top: 0px;
+   }
+
+   .provincePage .bantayog {
+    width: 320px;
+    margin-top: 70px;
+    margin-left: 10px;
+   }
+
+   .provincePage .left-div {
+    margin-left: 10px;
+   }
+
+   .provincePage .right-div {
+    margin-top: 3px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: justify;
+    line-height: 12px;
+   }
+
+/* Recreational Page */
+
+    .recreationalPage  {
+    background-image: url(../image/recreational.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .recreationalPage video {
+    width: 150px;
+    margin-left: 20px;
+   }
+
+   .recreationalPage .h1 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+   }
+
+   .recreationalPage .description {
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+   }
+
+   .recreationalPage .carousel {
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .recreationalPage .carousel-inner {
+    width: 310px;
+   }
+
+   .recreationalPage .carousel-indicators {
+    margin-left: 150px;
+    margin-right: 0px;
+   }
+
+   .recreationalPage button {
+    margin-left: 0px; 
+    margin-right: -170px;
+   }
+
+   .recreationalPage .btn {
+    width: 70px;
+    height: 22px;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 5px;
+   }
+
+   .recreationalPage .modal {
+    font-size: 10px;
+   }
+}
+
+a.nav-link:hover {
+    background-color: rgba(136, 138, 136, 0.623);
+    border-radius: 5%;
+}
+
+button.button-down:hover {
+background-color: aquamarine;
+color: black;
+}
+
+
+@media (max-width: 1025px) {
+
+/* navbar */
+    .navbar {
+    font-size: 15px;
+    margin-left: -90px;
+    margin-right: -90px;
+    }
+
+/* Province */
+    .bantayog {
+    margin-left: -170px;
+    width: 400px;
+    }
+
+    .provincePage .right-div {
+    font-size: 15px;
+    margin-right: 20px;
+    text-align: justify;
+    }
+
+/* about */
+    .aboutPage .aboutContent {
+    padding-left: 5px;
+    text-align: justify;
+    }
+
+    .aboutPage video {
+    /* width: 450px; */
+    margin-right: 10px;
+    }
+
+/* food */
+    /* .foodBlog {
+    margin-left: 10px;
+    }
+
+    .foodBlog .card1 {
+    height: 130px;
+    }
+
+    .foodBlog .card2 {
+    height: 130px;
+    padding-top: 65px;
+    }
+
+    .foodBlog .travel {
+    margin-top: -50px;
+    }
+
+
+    .foodPage .left-content {
+    text-align: justify;
+    } */
+
+/* Recreation */
+
+    .recreationalPage video {
+    width: 40%;
+    }
+    
+}

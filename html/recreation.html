@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/myStyle.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script|Audiowide|Satisfy|Square Peg|Quattrocento">
+    <link rel="icon" type="image" href="../image/favicon.jpg">
+    <script src="https://kit.fontawesome.com/3fd7489e8f.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.js" async></script>
+    <title>Recreation</title>
+</head>
+<body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-customgreen fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-brand-custom" href="../index.html"> <img src="../image/brandLogo-removebg-preview.png" alt="" class="brandLogo"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./province.html" target="">The Province</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html" target="">About</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" target="">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          What to do
+                        </a>
+                        <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./food.html">Food</a></li>
+                          <li><a class="dropdown-item" href="./beach.html">Beach</a></li>
+                          <li><a class="dropdown-item active" href="./recreation.html">Recreation</a></li>
+                        </ul>
+                      </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Recreational Page-->
+    <div class="recreationalPage" id="recreationalPage">
+        <div class="recreationalPage-content">
+            <div class="recreationalPage-subcontent">
+            <div class="d-flex flex-sm-row flex-column">
+                <div class="col-sm-6">
+                    <div class="h1 text-light pt-sm-4 ms-sm-3">Recreational Place</div>
+                    <div class="text-white ms-sm-3">
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi hic libero molestias numquam natus labore, eos, blanditiis architecto deserunt accusamus! Quidem, reprehenderit velit culpa animi laborum at dolor vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sint doloribus eligendi eaque voluptate iste explicabo numquam consequatur amet, ratione fugit nemo molestiae quod illum tenetur! Beatae facilis labore officia!</p>
+                    </div>
+                    <div class="vlog ms-sm-3 text-white">
+                        <div class="h-5 text-white mx-sm-4 mt-sm-2 text-center mb-3">Check out these Vlogs</div>
+                        <div class="d-flex justify-content-center mb-sm-3">
+                            <div>
+                                <video class="me-3" width="325" controls poster="../image/recreation/altheas - Copy.jpg" >
+                                    <source src="../videos/altheaVid_Trim.mp4" type="video/mp4">
+                                </video>
+                                <video width="325" controls poster="../image/recreation/casanayonPoster.jpg">
+                                    <source src="../videos/casanayonVid_Trim.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div>
+                                <video class="me-3" width="325" controls poster="../image/recreation/casaPoster.jpg">
+                                    <source src="../videos/casaVid_Trim.mp4" type="video/mp4">
+                                </video>
+                                <video width="325" controls poster="../image/recreation/mariaPoster.jpg">
+                                    <source src="../videos/mariaVid_Trim.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+<!-- Carousel -->
+<div id="carouselRec" class="carousel slide w-100 " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../image/recreation/altheasBg.jpg" class="d-block w-100 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="../image/recreation/altheas.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../image/recreation/casaBg.jpg" class="d-block w-100 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="../image/recreation/casa.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../image/recreation/mariaBg.jpg" class="d-block w-100 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="../image/recreation/maria.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../image/recreation/casanayonBg.jpg" class="d-block w-100 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="../image/recreation/casanayon.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRec" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRec" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+              <!-- Button trigger modal -->
+              <div class="text-center mt-sm-4">
+                <button type="button" class="btn btn-success text text-light border border-light opacity-75" data-bs-toggle="modal" data-bs-target="#recreationModal">
+                    View list
+                </button>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="recreationModal" tabindex="-1" aria-labelledby="recreationModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="recreationModalLabel">List of Available Places</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Click the link for more information</p>
+                       <table class="table mt-1 ps-1 table-hover">
+                           <tr class="">
+                               <th>Name</th>
+                               <th>Address</th>
+                               <th>Contact</th>
+                               <th>Facebook Link</th>
+                            </tr>
+                            <tr class="">
+                                <td>Altheas Dreamland's Resort</td>
+                                <td>San Lorenzo Ruiz, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/Altheas-Dreamlands-Resort-101900459160759" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Casa Indan Hotel Resort and Restaurant</td>
+                                <td>Sto Domingo, Vinzons, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/casaindan2021" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Maria Fatima Resort</td>
+                                <td>Labo, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/Maria-Fatima-Farm-Resort-168180967031542" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Casanayon</td>
+                                <td>Bagong Silan 1, Labo, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/casanayonresort" target="_blank">Link</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+    
+</body>
